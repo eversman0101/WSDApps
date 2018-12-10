@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wisdom.app.activity"
+    android:versionCode="13"
+    
+    android:versionName="V5.0.1"
+     >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:name="com.wisdom.app.utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/wisdom_bg"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ManualCheckNoneLoadActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".ManualCheckLoadActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".BLEActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+      <activity
+            android:name=".ParameterSettingActivity"
+            android:label="@string/parameters_setup_of_electric_energy_meter"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SystemSettingActivity"
+            android:label="@string/system_setting"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service android:name="com.sunday.slidetabfragment.blue.BlueService" />
+        <service
+            android:name="com.wisdom.app.utils.BluetoothLeService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".DataCheckActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_data_check" >
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name="com.wisdom.app.activityResult.JiBenWuChaResultActivity"
+            android:label="@string/title_activity_ji_ben_wu_cha_result" >
+        </activity>
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name="com.wisdom.app.activityResult.QianDongResultActivity"
+            android:label="@string/title_activity_qian_dong_result" >
+        </activity>
+        <activity 
+            android:name="com.wisdom.app.activityResult.QiDongResultActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.wisdom.app.activityResult.ZouZiResultActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_zou_zi_result" >
+        </activity>
+        <activity
+            android:name="com.wisdom.app.activityResult.ShiZhongResultActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_shi_zhong_result" >
+        </activity>
+        
+         <activity
+            android:name="com.wisdom.app.activityResult.MCL_JiBenWuChaResultActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        
+        <activity android:name=".DataViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity android:name="com.zijunlin.Zxing.Demo.CaptureActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.sunday.slidetabfragment.blue.BlueConnActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".AutoCheckNoneLoadActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".ACNL_OptionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.wisdom.app.activityResult.ACNLResultActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".ACNLActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_acnl" >
+        </activity>
+        <activity
+            android:name=".ACNLSchemeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_acnlfan_an" >
+        </activity>
+        <activity
+            android:name=".ACNLMainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_acnlmain" >
+        </activity>
+        <activity
+            android:name=".ACNLTestActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_acnltest" >
+        </activity>
+        <activity
+            android:name=".ACNLOptionSchemeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_acnloption_scheme" >
+        </activity>
+    </application>
+
+</manifest>

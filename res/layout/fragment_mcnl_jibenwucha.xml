@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:etv="http://schemas.android.com/apk/res-auto"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_MCNL_jibenwucha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="2.0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4.0"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3.0" >
+
+                <TableRow
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" >
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_header_common_bg"
+                        android:gravity="center"
+                        android:text="@string/epitope"
+                        android:textColor="@color/text_color_inverse"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_header_common_bg"
+                        android:gravity="center"
+                        android:text="@string/number_of_turns"
+                        android:textColor="@color/text_color_inverse"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_header_common_bg"
+                        android:gravity="center"
+                        android:text="@string/electric_energy_error"
+                        android:textColor="@color/text_color_inverse"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_header_common_bg"
+                        android:gravity="center"
+                        android:text="@string/number_of_times"
+                        android:textColor="@color/text_color_inverse"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_header_common_bg"
+                        android:gravity="center"
+                        android:text="@string/standard_deviation"
+                        android:textColor="@color/text_color_inverse"
+                        android:textSize="@dimen/text_size" />
+                     
+                    <!-- <com.dandick.dk.ui.SelectableTextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@+id/error_type" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginRight="-2.0dip" android:layout_weight="2.0" stv:selectableEntries="@array/none_load_error_type" stv:alertSelectableTitle="@string/error_mode" stv:initValueIndex="0" /> -->
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="-2.0dip"
+                    android:layout_weight="1.0" >
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter1_circle"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter1_ev"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter1_count"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter1_st"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+                     
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tr_row2"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="-2.0dip"
+                    android:layout_weight="1.0" >
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter2_circle"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter2_ev"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter2_count"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter2_st"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+                    
+                </TableRow>
+
+                <TableRow
+                    
+                    android:id="@+id/tr_row3"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="-2.0dip"
+                    android:layout_weight="1.0" >
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter3_circle"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter3_ev"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter3_count"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+
+                    <TextView
+                        android:id="@+id/meter3_st"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="-2.0dip"
+                        android:layout_weight="2.0"
+                        android:background="@drawable/cell_noteditable_bg"
+                        android:gravity="center"
+                        android:textColor="@color/text_color_main"
+                        android:textSize="@dimen/text_size_num" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="-2.0dip"
+                android:layout_weight="4.0"
+                android:orientation="horizontal" >
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0" >
+
+                    <TableRow
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-2.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/cell_header_common_bg"
+                            android:gravity="center"
+                            android:text="@string/validation_number_of_turns"
+                            android:textColor="@color/text_color_inverse"
+                            android:textSize="@dimen/text_size_num" />
+
+                        <EditText
+                            android:id="@+id/meter_circle"
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-2.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/cell_editable_bg"
+                            android:gravity="center"
+                            android:text="3"
+                            android:numeric="integer"
+                            android:textColor="@color/text_color_main"
+                            android:textSize="@dimen/text_size_num" />
+                        <!-- <com.dandick.dk.ui.EditableTextView android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/meter_circle" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_weight="1.0" stv:initValue="3.0" stv:minValue="1.0" stv:maxValue="59999.0" stv:decimalDigitsLimit="0" stv:alertTitle="@string/validation_number_of_turns" /> -->
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="0.0dip"
+                        android:layout_marginTop="-2.0dip"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-2.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/cell_header_common_bg"
+                            android:gravity="center"
+                            android:text="@string/validation_times"
+                            android:textColor="@color/text_color_inverse"
+                            android:textSize="@dimen/text_size_num" />
+
+                        <EditText
+                            android:id="@+id/meter_count"
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-2.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/cell_editable_bg"
+                            android:gravity="center"
+                            android:text="2"
+                            android:numeric="integer"
+                            android:textColor="@color/text_color_main"
+                            android:textSize="@dimen/text_size_num" />
+                        <!-- <com.dandick.dk.ui.EditableTextView android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/meter_count" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_weight="1.0" stv:initValue="10.0" stv:minValue="1.0" stv:maxValue="32.0" stv:decimalDigitsLimit="0" stv:alertTitle="@string/validation_times" /> -->
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="-2.0dip"
+                        android:layout_weight="1.0" >
+
+                        <TextView
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-2.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/cell_header_common_bg"
+                            android:gravity="center"
+                            android:text="@string/remaining_pulse"
+                            android:textColor="@color/text_color_inverse"
+                            android:textSize="@dimen/text_size" />
+
+                        <EditText
+                            android:id="@+id/run_time"
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="-2.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@drawable/cell_noteditable_bg"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:text="-----"
+                            android:textColor="@color/text_color_main"
+                            android:textSize="@dimen/text_size_num" />
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_common_bg"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+					<LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="5dip"
+                         >
+                    <ProgressBar
+                        android:id="@+id/progressbar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/btn_height"
+                        android:layout_gravity="center_vertical"
+                        android:max="100" 
+                        >
+                    </ProgressBar>
+					</LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/dianbiao_canshu"
+                            style="@style/MyButtonTheme"
+                            android:layout_width="@dimen/btn_width"
+                            android:layout_height="@dimen/btn_height"
+                            android:layout_weight="1.0"
+                            android:text="@string/electric_energy_meter_parameter" />
+
+                        <Button
+                            android:id="@+id/jiaoyan_jieguo"
+                            style="@style/MyButtonTheme"
+                            android:layout_width="@dimen/btn_width"
+                            android:layout_height="@dimen/btn_height"
+                            android:layout_weight="1.0"
+                            android:text="@string/inspection_results" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/start_test"
+                            style="@style/MyButtonTheme"
+                            android:layout_width="@dimen/btn_width"
+                            android:layout_height="@dimen/btn_height"
+                            android:layout_weight="1.0"
+                            android:text="@string/running_up_test" />
+
+                        <Button
+                            android:enabled="false"
+                            android:id="@+id/stop_test"
+                            style="@style/MyButtonTheme"
+                            android:layout_width="@dimen/btn_width"
+                            android:layout_height="@dimen/btn_height"
+                            android:layout_weight="1.0"
+                            android:text="@string/stop_the_test" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="-2.0dip"
+            android:layout_weight="7.0"
+            android:background="#ff00ff00"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/chooser_u_label"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="U[V]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <!-- <com.dandick.dk.ui.TextViewU android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/chooser_u" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:text="220.000" android:layout_weight="1.0" /> -->
+<!--gu-->
+                <TextView
+                    android:id="@+id/chooser_u"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_editable_bg"
+                    android:gravity="center"
+                    android:text="220"
+                    android:numeric="decimal"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:id="@+id/tv_U"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num"
+                    android:text="0.000" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="P[W]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@+id/show_p"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num"
+                    android:text="0.000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_marginTop="-2.0dip"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@+id/chooser_i_label"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="I[A]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <!-- <com.dandick.dk.ui.TextViewI android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/chooser_i" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:text="5.00000" android:layout_weight="1.0" /> -->
+
+                <TextView
+                    android:id="@+id/chooser_i"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-3.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_editable_bg"
+                    android:gravity="center"
+                    android:text="5.0"
+                    android:numeric="decimal"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:id="@+id/tv_I"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" 
+                    android:text="0.000"
+                    />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="Q[kvar]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@+id/show_q"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num"
+                    android:text="0.000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_marginTop="-2.0dip"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="Φ[°]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+                <!-- <com.dandick.dk.ui.TextViewP android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/chooser_p" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:text="0.000" android:layout_weight="1.0" /> -->
+
+                <TextView
+                    android:id="@+id/chooser_p"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_editable_bg"
+                    android:gravity="center"
+                    android:text="0.000"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:id="@+id/tv_jiaodu"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num"
+                    android:text="0.0" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="S[VA]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@+id/show_s"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num"
+                    android:text="0.000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_marginTop="-2.0dip"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="F[Hz]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+                <!-- <com.dandick.dk.ui.TextViewF android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/chooser_f" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:text="50.000" android:layout_weight="1.0" /> -->
+
+               <com.wisdom.layout.HzEditText
+                    android:id="@+id/chooser_f"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_editable_bg"
+                    android:gravity="center"
+                    android:text="50.0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:id="@+id/tv_f"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num"
+                    android:text="0.00" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="PF"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@+id/show_pf"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num"
+                    android:text="1.000" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="11.0"
+        android:background="@color/color_cell_header_bg"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5.0dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dianya_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voltage_source_stopped"
+                android:textColor="@color/text_color_main"
+                android:textSize="@dimen/text_size_num" />
+
+            <TextView
+                android:id="@+id/dianliu_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:text="@string/current_source_stopped"
+                android:textColor="@color/text_color_main"
+                android:textSize="@dimen/text_size_num" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/yuan_shuchu"
+                style="@style/MyButtonTheme"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/source_output" />
+
+            <Button
+                android:id="@+id/yuan_tingzhi"
+                style="@style/MyButtonTheme"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="@dimen/btn_height"
+                android:text="@string/source_stopping" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

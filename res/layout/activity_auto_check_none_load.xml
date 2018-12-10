@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+    <com.wisdom.layout.TitleLayout
+        android:textColor="@color/black"
+        android:id="@+id/title_auto_check_none_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+
+    <ListView
+        android:id="@+id/lv_autocheck_result"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        android:background="@color/white"
+        android:listSelector="@drawable/list_item_selected" >
+    </ListView>
+
+	<ListView 
+	    android:listSelector="@drawable/list_item_selected"
+	    android:layout_weight="3"
+	    android:background="@color/color_primary"
+	    android:id="@+id/lv_autocheck_option"
+	    android:layout_width="match_parent"
+	    
+        android:layout_height="0px">
+	</ListView>
+	<LinearLayout 
+	    android:layout_weight="0.5"
+	    android:orientation="horizontal"
+	    android:background="@color/white"
+	    android:layout_width="match_parent"
+	    android:layout_height="0px">
+	    <Button 
+	        android:text="增加"
+	        android:id="@+id/btn_autocheck_add_plan"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/MyButtonTheme"/>
+	    <Button 
+	        android:text="删除"
+	        android:id="@+id/btn_autocheck_delete"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/MyButtonTheme"/>
+	    <Button 
+	        android:text="开始测试"
+	        android:id="@+id/btn_autocheck_start_test"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        style="@style/MyButtonTheme"/>
+	     <Button 
+	        android:text="停止测试"
+	        android:id="@+id/btn_autocheck_stop_test"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2"
+	        style="@style/MyButtonTheme"/>
+	    
+	</LinearLayout>
+</LinearLayout>

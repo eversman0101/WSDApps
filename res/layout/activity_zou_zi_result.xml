@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_main" android:layout_width="match_parent" android:layout_height="0dip" android:layout_weight="20" >
+       <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ff00ff00"
+             >
+
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/work_order"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+                <EditText
+                    android:id="@+id/result_zouzi_id"
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+                
+            </TableRow>
+
+ <!--            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="电表号"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <EditText
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_dianbiaohao"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow> -->
+
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/user_name"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <EditText
+                     android:id="@+id/result_username"
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+<TableRow
+    android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                     
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/verifier"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <EditText
+                    android:id="@+id/result_jiaoyanyuan"
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/verify_time"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_shijian"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="U[V]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_u"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="P[W]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_yougong"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="I[10A]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_i"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="Q[Var]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_wugong"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="Φ[°]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_xiangjiao"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="PF"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:id="@+id/result_jibenwucha_gonglvyinshu"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="xxxxx"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/walk_mode"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_zouzifangshi"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/start_stop_power"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:id="@+id/tv_yuzhidianneng"
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/preset_electric_energy_0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_yuzhidianneng"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="1200"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/input_rate"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_beilv"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:id="@+id/tv_left_standard_energy"
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/standard_electric_energy_0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_biaozhundianneng"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+           <!-- 第一行 -->
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/start_electric_energy_1"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_qishi1"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/stop_electric_energy_1"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_jieshu1"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+              
+            </TableRow>
+              <TableRow
+                  android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/actual_electric_energy_1"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_shiji1"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+               <TableRow
+                  android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:id="@+id/tv_zouzi1"
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/operating_error_1"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_wucha1"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <!-- 第二行 -->
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/start_electric_energy_2"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_qishi2"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/stop_electric_energy_2"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_jieshu2"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+              
+            </TableRow>
+              <TableRow
+                  android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/actual_electric_energy_2"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_shiji2"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+               <TableRow
+                  android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:id="@+id/tv_zouzi2"
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/operating_error_2"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_wucha2"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/start_electric_energy_3"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_qishi3"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+            <TableRow
+                android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/stop_electric_energy_3"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_jieshu3"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+              
+            </TableRow>
+              <TableRow
+                  android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/actual_electric_energy_3"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_shiji3"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+               <TableRow
+                  android:layout_height="fill_parent" android:layout_weight="1.0">
+
+               <TextView
+                   android:id="@+id/tv_zouzi3"
+                   android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.5"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="@string/operating_error_3"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:paddingTop="6dip"
+                    android:paddingBottom="6dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/result_zouzi_wucha3"
+                    android:layout_weight="4.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+        <LinearLayout 
+        android:id="@+id/btn_visible"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+        <LinearLayout android:layout_width="0dip"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"></LinearLayout>
+        <Button 
+            android:id="@+id/btn_savejiaoyanjieguo"
+            android:layout_height="50dip"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:text="@string/save_result"
+            style="@style/MyButtonTheme"/>
+    </LinearLayout>
+<!--     <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dip" android:layout_weight="1.0">
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" layout="@layout/layout_bottom_status" />
+    </LinearLayout> -->
+</LinearLayout>

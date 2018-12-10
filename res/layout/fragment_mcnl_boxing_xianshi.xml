@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_MCNL_boxingxianshi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="4.0">
+        <RelativeLayout android:background="@drawable/cell_border_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="-2.0dip" android:layout_weight="1.0">
+            <com.github.mikephil.charting.charts.LineChart android:id="@id/lineChart1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+            <View android:id="@id/line1" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divide_height" android:layout_marginLeft="30.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/cell_border_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="-2.0dip" android:layout_weight="1.0">
+            <com.github.mikephil.charting.charts.LineChart android:id="@id/lineChart2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+            <View android:id="@id/line2" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divide_height" android:layout_marginLeft="30.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+         <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="-2.0dip"
+            android:layout_weight="7.0"
+            android:background="#ff00ff00"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:id="@id/chooser_u_label"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="U[V]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+            
+                
+                <TextView
+                    android:id="@id/chooser_u"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="220.000"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="P[W]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@id/show_p"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:layout_weight="1.0"                    
+                    android:text="5500.00"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_marginTop="-2.0dip"
+                android:layout_weight="1.0">
+
+                <TextView
+                    android:id="@id/chooser_i_label"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="I[A]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@id/chooser_i"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="5.00000"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="Q[kvar]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@id/show_q"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"                    
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:text="5500.00"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_marginTop="-2.0dip"
+                android:layout_weight="1.0"  >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="Φ[°]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@id/chooser_p"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="0.000"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:layout_weight="1.0"
+                    android:text="S[VA]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@id/show_s"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:text="11000.00"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_marginTop="-2.0dip"
+                android:layout_weight="1.0" >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="F[Hz]"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@id/chooser_f"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="50.000"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:background="@drawable/cell_header_bg"
+                    android:gravity="center"
+                    android:text="PF"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_en" />
+
+                <TextView
+                    android:id="@id/show_pf"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginRight="-2.0dip"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:text="0.50000"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" />
+            </TableRow>
+        </TableLayout>
+</LinearLayout>

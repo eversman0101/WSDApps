@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    android:focusable="true"     
+	android:focusableInTouchMode="true"  
+    android:orientation="vertical" >
+
+    <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_option_scheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black" >
+    </com.wisdom.layout.TitleLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:gravity="center"
+    android:layout_weight="1">
+    <TextView android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_num"
+        android:text="@string/program_name"/>
+    <EditText 
+        android:id="@+id/schemeName"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="@string/please_enter"
+        />
+        <TextView android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/power_type"
+                android:background="@drawable/cell_header_common_bg"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <Spinner
+                 android:id="@+id/sp_option_power_type"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="20px"
+                android:background="@drawable/cell_editable_bg"
+                android:enabled="false"
+                android:entries="@array/acnl_power_type"
+                />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/frequency_unit"
+                android:background="@drawable/cell_header_common_bg"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/sp_option_rate"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20px"
+                android:digits="1234567890"
+                android:text="50"
+                android:background="@drawable/cell_editable_bg"
+                android:entries="@array/acnl_rate"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/voltage_unit"
+                android:background="@drawable/cell_header_common_bg"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <Spinner
+                android:id="@+id/sp_option_Ub"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell_editable_bg"
+                android:enabled="false"
+                 android:paddingLeft="20px"
+                android:entries="@array/acnl_Ub"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/number_of_turns"
+                android:background="@drawable/cell_header_common_bg"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <Spinner
+                 android:id="@+id/sp_option_circle"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                 android:paddingLeft="20px"
+                android:background="@drawable/cell_editable_bg"
+                android:enabled="false"
+                android:entries="@array/acnl_circle"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/current_unit"
+                android:background="@drawable/cell_header_common_bg"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <Spinner
+                 android:id="@+id/sp_option_Ib"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell_editable_bg"
+                android:enabled="false"
+                 android:paddingLeft="20px"
+                android:entries="@array/acnl_Ib"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/number_of_times"
+                android:background="@drawable/cell_header_common_bg"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <Spinner
+                android:id="@+id/sp_option_count"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell_editable_bg"
+                android:enabled="false"
+                 android:paddingLeft="20px"
+                android:entries="@array/acnl_count"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/cell_header_common_bg"
+                android:text="@string/voltage_option"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <Spinner
+                android:id="@+id/sp_option_Ur"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell_editable_bg"
+                android:enabled="false"
+                 android:paddingLeft="20px"
+                android:entries="@array/acnl_Ur"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/cell_header_common_bg"
+                android:text="@string/error_limit"
+                android:textColor="@color/text_color_inverse"
+                android:textSize="@dimen/text_size" />
+
+            <Spinner
+                android:id="@+id/sp_option_error_range"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell_editable_bg"
+                android:enabled="false"
+                 android:paddingLeft="20px"
+                android:entries="@array/acnl_error_range"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/grid_head"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="8" >
+        </GridView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <GridView
+                android:id="@+id/grid_body"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="1" >
+            </GridView>
+
+            <GridView
+                android:id="@+id/grid"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="7" >
+            </GridView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_autocheck_add_plan"
+            style="@style/MyButtonTheme"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/dialog_confirm"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_autocheck_cancle"
+            style="@style/MyButtonTheme"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/dialog_cancel"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

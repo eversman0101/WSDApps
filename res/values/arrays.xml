@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mcnl_shichang">
+        <item>@string/duration_1</item>
+        <item>@string/duration_2</item>
+        <item>@string/duration_3</item>
+    </string-array>
+    <string-array name="mcnl_meter_index">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="acnl_power_type">
+        <item>@string/positive_active_power</item>
+    </string-array>
+    <string-array name="acnl_Ub">
+        <item>220</item>
+    </string-array>
+    <string-array name="acnl_Ib">
+        <item>5</item>
+        <item>0.25</item>
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>100</item>
+    </string-array>
+    
+    <string-array name="acnl_Ur">
+        <item>100</item>
+        <item>0.1</item>
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>115</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="acnl_Ir">
+        <item>100</item>
+        <item>0.1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+
+        <item>120</item>
+    </string-array>
+    <string-array name="acnl_power_factor">
+        <item>1.0</item>
+        <item>0.25L</item>
+        <item>0.25C</item>
+        <item>0.5L</item>
+        <item>0.5C</item>
+        <item>0.8L</item>
+        <item>0.8C</item>
+    </string-array>
+        <string-array name="acnl_rate">
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="acnl_circle">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    	<item>10</item>
+    	<item>15</item>
+    	<item>20</item>
+    </string-array>
+    <string-array name="acnl_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    	<item>10</item>
+    	<item>15</item>
+    	<item>20</item>
+    </string-array>
+    
+    <string-array name="acnl_error_range">
+        <item>1.0</item>
+        <item>0.2</item>
+        <item>0.5</item>
+
+        <item>2.0</item>
+    </string-array>
+    
+    <!-- 2018 -->
+    <string-array name="baud_rate">
+        <item>2400</item>
+        <item>600</item>
+        <item>1200</item>
+        
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+    </string-array>
+    <string-array name="canbi_dianya">
+        <item>220V</item>
+    </string-array>
+    <string-array name="calibrate_mode">
+        <item>@string/type_ac_source</item>
+        <item>@string/type_ac_meter</item>
+        <item>@string/type_clamp_meter</item>
+    </string-array>
+    <string-array name="check_type">
+        <item>@string/even_validation</item>
+        <item>@string/no_validation</item>
+        <item>@string/odd_validation</item>
+    </string-array>
+    <string-array name="creeping_current">
+        <item>0%IQ</item>
+        <item>25%IQ</item>
+    </string-array>
+    <string-array name="creeping_voltage">
+		<item>115%Un</item>
+        <item>80%Un</item>
+        <item>100%Un</item>
+        <item>110%Un</item>
+    </string-array>
+    <string-array name="error_type">
+        <item>@string/active_power</item>
+        <item>@string/reactive_power</item>
+    </string-array>
+    <string-array name="impulse_input">
+        <item>@string/photoelectricity</item>
+        <item>@string/manual</item>
+    </string-array>
+    <string-array name="meter_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="meter_level">
+        <item>@string/level_02</item>
+        <item>@string/level_05</item>
+        <item>@string/level_1</item>
+        <item>@string/level_2</item>
+    </string-array>
+    <string-array name="meter_spec">
+        <item>645–2007</item>
+        <item>645–1997</item>
+    </string-array>
+    <string-array name="meter_type">
+        <item>@string/electronic_type</item>
+        <item>@string/electromechanical_type</item>
+    </string-array>
+    <string-array name="none_load_error_type">
+        <item>@string/standard_deviation</item>
+        <item>@string/average_error</item>
+    </string-array>
+    <string-array name="pulse_output_type">
+        <item>@string/active_power</item>
+        <item>@string/reactive_power</item>
+    </string-array>
+    <string-array name="qianbiao_liangcheng">
+        <item>100A</item>
+        <item>10A</item>
+        <item>1A</item>
+    </string-array>
+    <string-array name="ref_freq">
+        <item>50Hz</item>
+        <item>60Hz</item>
+    </string-array>
+    <string-array name="ref_voltage">
+        <item>220V</item>
+    </string-array>
+    <string-array name="start_Current_1">
+        <item>0.2%Ib</item>
+        <item>0.4%Ib</item>
+    </string-array>
+    <string-array name="start_Current_2">
+        <item>0.3%Ib</item>
+        <item>0.5%Ib</item>
+    </string-array>
+    <string-array name="start_current">
+        <item>0.1%Ib</item>
+        <item>0.2%Ib</item>
+        <item>0.3%Ib</item>
+        <item>0.4%Ib</item>
+        <item>0.5%Ib</item>
+        <item>0.8%Ib</item>
+        <item>0.9%Ib</item>
+        <item>1.0%Ib</item>
+    </string-array>
+    <string-array name="zouzi_fangshi">
+        <item>@string/start_stop_power</item>
+        <item>@string/walk_time</item>
+        <item>@string/pulse_counts</item>
+    </string-array>
+    
+    <string-array name="current_U">
+                <item>100%</item>
+        <item>110%</item>
+
+        <item>80%</item>
+        <item>50%</item>
+    </string-array>
+    <string-array name="current_I">
+        <item>100%</item>
+        <item>80%</item>
+        <item>50%</item>
+        <item>20%</item>
+        <item>10%</item>
+        <item>5%</item>
+        <item>2%</item>
+        <item>1%</item>
+    </string-array>
+    <string-array name="chooser_I">
+        <item>100A</item>
+        <item>10A</item>
+        <item>1A</item>
+        <item>0.1A</item>
+    </string-array>
+    
+    <string-array name="chooser_p">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>75.5</item>
+        <item>284.5</item>
+        <item>300</item>
+        <item>330</item>
+    </string-array>
+
+    <string-array name="data_type">
+        <item>@string/intrinsic_error</item>
+    	<item>@string/false_actuation_test</item>
+    	<item>@string/qidong_test</item>
+    	<item>@string/walk_test</item>
+    	<item>@string/clock_error_test</item>
+    	<item>@string/constant_check</item>
+    </string-array>
+    <string-array name="data_category">
+        <item>@string/manual_validation_of_virtual_load</item>
+        <item>@string/manual_validation_of_real_load</item>
+        <item>@string/automatic_validation_of_virtual_load</item>
+    </string-array>
+</resources>

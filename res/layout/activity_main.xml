@@ -1,0 +1,38 @@
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+        <RelativeLayout android:id="@id/bt_device" android:background="@drawable/common_clickable_bg" android:layout_width="fill_parent" android:layout_height="@dimen/main_bt_height">
+            <ImageView android:id="@id/bt_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_bluetooth_connected_black_36dp" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:id="@id/bt_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/bt_image" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:id="@id/bt_device_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/bluetooth_state_blank" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@color/color_primary" android:paddingBottom="120.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/bt_device">
+            <LinearLayout android:orientation="horizontal" android:id="@id/version_layout" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_alignParentBottom="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="160.0dip" android:layout_marginLeft="@dimen/main_leftlength_large" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center_vertical" android:id="@id/model_hardware" android:layout_width="250.0dip" android:layout_height="80.0dip" android:text="" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:id="@id/serial_hardware" android:layout_width="250.0dip" android:layout_height="80.0dip" android:text="" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="160.0dip" android:layout_marginLeft="@dimen/main_leftlength" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center_vertical" android:id="@id/version_software" android:layout_width="250.0dip" android:layout_height="80.0dip" android:text="@string/software_version_blank" android:layout_weight="1.0" />
+                  
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/main_version_padding" android:paddingTop="24.0dip" android:paddingRight="@dimen/main_version_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/version_layout">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <Button android:textSize="@dimen/btn_text_size_large" android:layout_gravity="center_vertical" android:id="@id/manual_check" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height_large" android:layout_marginRight="20.0dip" android:text="@string/manual_validation_of_virtual_load" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+                    <Button android:textSize="@dimen/btn_text_size_large" android:layout_gravity="center_vertical" android:id="@id/auto_check" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height_large" android:layout_marginLeft="20.0dip" android:text="@string/automatic_validation_of_virtual_load" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <Button android:textSize="@dimen/btn_text_size_large" android:layout_gravity="center_vertical" android:id="@id/load_check" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height_large" android:layout_marginRight="20.0dip" android:text="@string/manual_validation_of_real_load" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+                    <Button android:textSize="@dimen/btn_text_size_large" android:layout_gravity="center_vertical" android:id="@id/dianbiao_canshu" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height_large" android:layout_marginLeft="20.0dip" android:text="@string/electric_energy_meter_parameter" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <Button android:textSize="@dimen/btn_text_size_large" android:layout_gravity="center_vertical" android:id="@id/data_view" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height_large" android:layout_marginRight="20.0dip" android:text="@string/data_inquiry" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+                    <Button android:textSize="@dimen/btn_text_size_large" android:layout_gravity="center_vertical" android:id="@id/sys_setting" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height_large" android:layout_marginLeft="20.0dip" android:text="@string/system_setting" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="43.0" layout="@layout/layout_bottom_status" />
+</LinearLayout>

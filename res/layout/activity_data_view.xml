@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_large"
+            android:paddingBottom="2dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+
+            <Spinner
+                android:id="@+id/sp_type"
+                style="@style/MyButtonTheme"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                    android:background="@drawable/cell_editable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:paddingLeft="30dip"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" 
+                android:entries="@array/data_type" />
+
+            <Spinner
+                android:id="@+id/sp_category"
+                style="@style/MyButtonTheme"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                    android:background="@drawable/cell_editable_bg"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:paddingLeft="30dip"
+                    android:layout_marginLeft="50dip"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size_num" 
+                android:entries="@array/data_category" />
+
+              <Button
+                android:id="@+id/btn_search"
+                style="@style/MyButtonTheme"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/data_inquiry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height_large"
+            android:paddingBottom="2dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp" >
+           <TextView android:layout_height="fill_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/filter"/>        
+            <TextView android:layout_height="fill_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/user_name"/>
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            
+            <TextView android:layout_height="fill_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/verifier"/>
+            <EditText
+                android:id="@+id/et_stuffName"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            
+            <TextView android:layout_height="fill_parent"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/order_number"/>
+            <EditText
+                android:id="@+id/et_no"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_layout_shape"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <ListView
+            android:id="@+id/lv_data"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#E3E3E3"
+            android:dividerHeight="1dp"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

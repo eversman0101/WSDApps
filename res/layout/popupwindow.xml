@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:layout_gravity="center"  
+    android:background="@drawable/rounded_corners_bg"  
+     
+    android:orientation="vertical" >  
+      
+    <LinearLayout  
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:layout_centerInParent="true"  
+        android:layout_gravity="center_vertical|center"  
+        android:orientation="vertical" >  
+          
+            <TextView  
+                android:id="@+id/tv_zhijiejieru"  
+                android:layout_width="fill_parent"  
+                android:layout_height="100dp"  
+                
+                android:gravity="center"  
+                android:text="直接接入式"  
+                android:textColor="#000000"  
+                android:textSize="18sp" />  
+  
+            <View  
+                android:layout_width="match_parent"  
+                android:layout_height="0.5dp"  
+                android:background="#999999" />  
+            <TextView  
+                android:id="@+id/tv_100A"  
+                android:layout_width="fill_parent"  
+                android:layout_height="100dp"  
+                
+                android:gravity="center"  
+                android:text="100A电流钳"  
+                android:textColor="#000000"  
+                android:textSize="18sp" />  
+            <View  
+                android:layout_width="match_parent"  
+                android:layout_height="0.5dp"  
+                android:background="#999999" />  
+              
+  
+            <TextView  
+                android:id="@+id/tv_5A"  
+                android:layout_width="fill_parent"  
+                android:layout_height="100dp"  
+                
+                android:gravity="center"  
+                android:text="5A电流钳"  
+                android:textColor="#000000"  
+                android:textSize="18sp" />  
+           
+  
+                       
+    </LinearLayout>  
+</RelativeLayout>  

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners android:bottomLeftRadius="6dp"/>
+    <corners android:bottomRightRadius="6dp"/>
+    <corners android:radius="6dp"/>
+    <solid android:color="@color/white"/>
+    <stroke android:width="1px" android:color="@color/border_clo"/>
+    <!-- 设置了四个圆角的半径、填充色、边线宽度和边线颜色 -->
+</shape>

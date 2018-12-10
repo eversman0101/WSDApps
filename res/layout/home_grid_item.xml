@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical"
+    android:gravity="center"
+	android:paddingTop="5dp"
+	android:layout_gravity="top"
+	android:paddingBottom="5dp"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:layout_margin="20dp"
+	android:background="@drawable/bg_layout_shape"
+    >
+    <ImageView
+        android:id="@+id/home_grid_image"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:paddingTop="20dp"
+         />
+    <TextView
+        android:id="@+id/home_grid_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="功能"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#666666"
+        android:paddingTop="12dp"
+        />
+</LinearLayout>

@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="remaining_pulse">Remaining pulses</string>
+    <string name="actually_calculated_electric_energy">Actually-calculated electric energy</string>
+    <string name="app_name">DF6371X</string>
+    <string name="auto">Auto</string>
+    <string name="auto_validation">Auto validation</string>
+    <string name="auto_validation_results">Auto validation results</string>
+    <string name="automatic">Auto</string>
+    <string name="automatic_validation_of_virtual_load_title">Automatic Validation of Virtual Load > %s</string>
+    <string name="average_error">Average error</string>
+    <string name="back_error_msg">Currently verifying, stop and return!</string>
+    <string name="back_to_list">Back to list</string>
+    <string name="bar_code_address">Bar code address:</string>
+    <string name="bar_code_scan">Bar code scan</string>
+    <string name="barcode_scanner">Barcode scanner</string>
+    <string name="baud_rate">Baud rate</string>
+    <string name="blank_web_service_address">&lt;i>[Open web service first]&lt;/i></string>
+    <string name="bluetooth_equipment_list">Bluetooth equipment list</string>
+    <string name="bluetooth_off">Bluetooth off</string>
+    <string name="bluetooth_on">Bluetooth on</string>
+    <string name="bluetooth_opening">Bluetooth opening</string>
+    <string name="broadcast_timing">Broadcast timing</string>
+    <string name="broadcast_timing_success">Send command successful!</string>
+    <string name="calculate_md5_error">Calculate MD5 error</string>
+    <string name="calculate_the_false_actuation_time">Calculate the false actuation time</string>
+    <string name="calculate_the_running_up_time">Calculate the running-up time</string>
+    <string name="calculate_the_running_up_time_tips">Please calculate the running-up time first</string>
+    <string name="calculating">Calculating</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="calibrate_amplitude">Calibrate amplitude</string>
+    <string name="calibrate_phase">Calibrate phase</string>
+    <string name="calibrate_projects">Projects</string>
+    <string name="calibrate_success_msg">Calibrate successful!</string>
+    <string name="calibrate_time">Calibrate time</string>
+    <string name="calibration_mode">Calibration mode</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_time_tips">If the local time is wrong, please change it in system settings!</string>
+    <string name="check">Check</string>
+    <string name="check_gear_msg">Click [OK] button to output source after check the gear of meter and the gear of setting is consistent</string>
+    <string name="choose_file_error">Unable to select a file, please try again!</string>
+    <string name="clamp_meter">Clamp meter</string>
+    <string name="clear_parameters">Clear parameters</string>
+    <string name="click_and_choose">[Click and Choose]</string>
+    <string name="click_and_new">[Click and New]</string>
+    <string name="clock_error">Clock error</string>
+    <string name="clock_frequency">Clock frequency</string>
+    <string name="clock_frequency_unit">Clock frequency[Hz]</string>
+    <string name="close_web">Close</string>
+    <string name="close_web_fail_msg">Please connect to the wifi first!</string>
+    <string name="close_web_success_msg">Close web service successful!</string>
+    <string name="configuration_failure">Configuration failure</string>
+    <string name="connect_error">Error</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="constant_calibration">Constant calibration</string>
+    <string name="constant_calibration_turns">The turns of Constant calibration: %d</string>
+    <string name="create">Create</string>
+    <string name="create_scheme">Create scheme</string>
+    <string name="current">Current</string>
+    <string name="current_protect_msg">Abnormal current circuit protection!</string>
+    <string name="current_range_limit">Input range: 0~120%RG</string>
+    <string name="current_source">Current source</string>
+    <string name="current_source_label">Current source:</string>
+    <string name="current_status">Current status</string>
+    <string name="current_status_label">Current status: %s</string>
+    <string name="current_time_of_equipment">Current time of equipment:</string>
+    <string name="current_value_limit">Input range: 0~100A</string>
+    <string name="daily_average_error">Daily average error</string>
+    <string name="date">Date</string>
+    <string name="datetime_blank">---. --,---- --:--:-- --</string>
+    <string name="datetime_placeholder">MMM. dd, yyyy hh:mm:ss a</string>
+    <string name="default_exception">Disconnect from device, please try again! Bluetooth connection is disconnected, error code: %1$dH%2$s</string>
+    <string name="delete">Delete</string>
+    <string name="delete_record_blank_msg">Please select at least one record</string>
+    <string name="delete_record_msg">Are you sure want to delete this record?</string>
+    <string name="delete_selected_record_msg">Are you sure want to delete the selected records?</string>
+    <string name="device_id">Device id</string>
+    <string name="device_time">Device time:</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="duration_time_label">Duration time: %s</string>
+    <string name="electric_energy_active_unit">Electric energy unit: kW.h</string>
+    <string name="electric_energy_error">Error</string>
+    <string name="electric_energy_meter_1">Meter 1</string>
+    <string name="electric_energy_meter_2">Meter 2</string>
+    <string name="electric_energy_meter_3">Meter 3</string>
+    <string name="electric_energy_meter_constant">Constant</string>
+    
+    <string name="electric_energy_meter_phase_number">Phase number</string>
+    <string name="electric_energy_meter_specifications">Specifications</string>
+    <string name="electric_energy_meter_test">Electric energy meter test</string>
+    <string name="electric_energy_meter_type">Meter type</string>
+    <string name="electric_energy_reactive_unit">Electric energy unit: kvar.h</string>
+    <string name="electromechanical_type">Electromechanical</string>
+    <string name="electronic_type">Electronic</string>
+    <string name="enter_meter_1_power">Power of meter 1:</string>
+    <string name="enter_meter_2_power">Power of meter 2:</string>
+    <string name="enter_meter_3_power">Power of meter 3:</string>
+    <string name="enter_meter_address">Enter meter address</string>
+    <string name="enter_meter_address_tips">Please enter correct meter address</string>
+    <string name="enter_password">Enter password:</string>
+    <string name="enter_password_tips">Please input the password first!</string>
+    <string name="epitope">Epitope</string>
+    <string name="epitope_counts">Epitope counts</string>
+    <string name="equipment_information_input">Equipment information input</string>
+    <string name="equipment_matching">Equipment matching</string>
+    <string name="error">Error</string>
+    <string name="error_mode">Error mode</string>
+    <string name="error_title">ERROR</string>
+    <string name="error_unit">Error[%]</string>
+    <string name="even_validation">Even validation</string>
+    <string name="event_log">Event log</string>
+    <string name="exit_calibration">Exit</string>
+    <string name="exit_upgrade">Exit</string>
+    <string name="export">Export</string>
+    <string name="export_record_blank_msg">Please select at least one record</string>
+    <string name="export_record_error_msg">Unable to export excel,</string>
+    <string name="export_record_success_msg">Export successful</string>
+    <string name="false_actuation_current">False actuation current</string>
+    
+    <string name="false_actuation_test_current_status">False actuation test: %1$s, %2$s, false actuation time: %3$ds</string>
+    <string name="false_actuation_test_current_status_result">False actuation test: %1$s, %2$s, false actuation time: %3$ds, %4$s</string>
+    <string name="false_actuation_test_remaining_status">False actuation test: %1$s, %2$s, remaining time: %3$ds</string>
+    <string name="false_actuation_test_result">The result of false actuation test</string>
+    <string name="false_actuation_test_step_empty">False actuation test: NOT STARTED</string>
+    <string name="false_actuation_time">False actuation time</string>
+    <string name="false_actuation_time_unit">False actuation time[s]</string>
+    <string name="false_actuation_voltage">False actuation voltage</string>
+    <string name="file_large_error">The file is too large.</string>
+    <string name="file_list">File list</string>
+    <string name="file_not_exist">File does not exist</string>
+    <string name="file_size">Size</string>
+    <string name="file_small_error">The file is too small.</string>
+    <string name="firmware_upgrade">Firmware upgrade</string>
+    <string name="firmware_upgrade_title">System setting > Firmware upgrade</string>
+    <string name="firmware_version_blank">Firmware Version: ---</string>
+    <string name="firmware_version_placeholder">Firmware Version: %s</string>
+    <string name="frequency">Frequency</string>
+    <string name="frequency_value_limit">Input range: 45~65</string>
+    <string name="fundamental_current">Fundamental current</string>
+    <string name="fundamental_wave">Fundamental wave</string>
+    <string name="gear_position">Gear position:</string>
+    <string name="gears_of_current">Gears of current</string>
+    <string name="gears_of_voltage">Gears of voltage</string>
+    <string name="harmonic">Harmonic</string>
+
+    <string name="harmonic_closing">Harmonic closing</string>
+    
+    <string name="humiture_blank">---℃ ---RH</string>
+    <string name="humiture_placeholder">%1$s℃ %2$s%%RH</string>
+    <string name="import_btn">Import</string>
+    <string name="import_fail_msg">Import failed, please use the template file.</string>
+    <string name="import_information">Import</string>
+    <string name="import_success_msg">Import scheme successful</string>
+    <string name="input_fail_msg">Import failed, please check the file is correct.</string>
+    <string name="input_rate">Input rate</string>
+    <string name="input_too_big_msg">Your input is bigger than the maximum value</string>
+    <string name="input_too_small_msg">Your input is smaller than the minimum value</string>
+    <string name="input_value_limit">Input data between %1$s-%2$s:</string>
+    <string name="input_wrong_msg">Your input is wrong!</string>
+    <string name="inspection_results">Inspection results</string>
+    
+    <string name="level_02">0.2 level</string>
+    <string name="level_05">0.5 level</string>
+    <string name="level_1">1.0 level</string>
+    <string name="level_100_calibration">100% level</string>
+    <string name="level_2">2.0 level</string>
+    <string name="level_20_calibration">20% level</string>
+    <string name="level_50_calibration">50% level</string>
+    <string name="level_5_calibration">5% level</string>
+    <string name="level_of_meter">Level of meter</string>
+    <string name="listening">Listening</string>
+    <string name="load_error_tips">No output voltage and current in the circuit, please check the load is working property.</string>
+    <string name="load_state">Load state</string>
+    <string name="local_ip">Local IP</string>
+    <string name="local_time">Local time:</string>
+    <string name="manual">Manual</string>
+    <string name="manual_validation">Manual validation</string>
+
+    <string name="manual_validation_of_real_load_placeholder">Manual Validation of Real Load > %s</string>
+    <string name="manual_validation_of_real_load_title">Manual Validation of Real Load</string>
+
+    <string name="manual_validation_of_virtual_load_placeholder">Manual Validation of Virtual Load > %s</string>
+    <string name="manual_validation_results">Manual validation results</string>
+    <string name="marketing_system">Marketing system</string>
+    <string name="maximum_current">Imax</string>
+    <string name="maximum_current_unit">Imax[A]</string>
+    <string name="md5_value">MD5</string>
+    <string name="measured_value">Measured value</string>
+    <string name="measurement_time">Measurement time</string>
+    <string name="meter_address_label">Address:</string>
+    <string name="meter_address_placeholder">add. of meter %d</string>
+    <string name="meter_item">Meter %d</string>
+    <string name="meter_measurement_parameters">Meter measurement parameters</string>
+    <string name="meter_no">Meter No.</string>
+    <string name="meter_number">Meter number</string>
+    <string name="meter_number_error">Please enter the correct meter number</string>
+    <string name="meter_number_hint">Please enter up to 24 bit meter number:</string>
+    <string name="meter_number_title">The number of meter %d</string>
+    <string name="meter_state">Meter state</string>
+    <string name="meter_timeout_exception">Read meter data timeout, error code: %1$dH%2$s</string>
+    <string name="minute">minute</string>
+    <string name="minutes_60">60 minutes</string>
+    <string name="modify">Modify</string>
+    <string name="negative_active_power">Negative
+active power</string>
+    <string name="no_chart_data_available">No chart data available</string>
+    <string name="no_load_state">No load</string>
+    <string name="no_validation">No validation</string>
+    <string name="number_of_times">Times</string>
+    <string name="number_of_turns">Turns</string>
+    <string name="odd_validation">Odd validation</string>
+    <string name="off_peak">Off-peak</string>
+    <string name="ok">OK</string>
+    <string name="open_file_error_msg">The file does not open</string>
+    <string name="open_web">Open</string>
+    <string name="open_web_fail_msg">Unable to open web service, try again later!</string>
+    <string name="open_web_success_msg">Open web service successful!</string>
+    <string name="operating_error">Operating error</string>
+    <string name="order_timing">Order timing</string>
+    <string name="other_exception">Disconnect from device, please try again! Other errors, error code: %1$dH%2$s</string>
+    <string name="pack_frame_count_error">The frame number is error.</string>
+    <string name="page_down">Page down</string>
+    <string name="page_up">Page up</string>
+    <string name="paired">Paired</string>
+    <string name="pairing">Pairing</string>
+    <string name="parameter_validation">Parameter validation</string>
+    <string name="parameter_validation_title">System setting > Parameter validation</string>
+    <string name="password_error_msg">The password you entered is wrong, please input again.</string>
+    <string name="peak">Peak</string>
+    <string name="phase">Phase</string>
+    <string name="phase_value_limit">Input range: 0~359.99</string>
+    <string name="photoelectricity">Photoelectricity</string>
+    <string name="please_choose">Please choose</string>
+    <string name="please_choose_label">Please choose:</string>
+    <string name="please_choose_upgrade_file">Please select upgrade file</string>
+    <string name="please_enter">Please enter</string>
+    <string name="please_enter_label">Please enter:</string>
+    <string name="positive_active_power">Positive
+active power</string>
+    <string name="program_name">Plan name</string>
+    <string name="prompt_title">MESSAGE</string>
+    <string name="protoco_result_error_exception">The status of response packet is wrong, error code: %1$dH%2$s</string>
+    <string name="protocol_pack_exception">The response packet is wrong, error code: %1$dH%2$s</string>
+    <string name="pulse_constants">Pulse constants</string>
+    
+    <string name="pulse_input">Pulse input</string>
+    <string name="pulse_output">Pulse output</string>
+   
+    <string name="reactive_power">Reactive power</string>
+    <string name="read_file_error">Read the upgrade file error</string>
+    <string name="read_file_error_label">Read the upgrade file error: %s</string>
+    <string name="reader_blank_title">          </string>
+    <string name="reading">Reading</string>
+    <string name="reading_parameters">Reading parameters</string>
+    <string name="real_load">Real load</string>
+    <string name="real_load_state">Real load</string>
+    <string name="received_data">"
+Received data:"</string>
+    <string name="reconnect_bluetooth">Reconnect bluetooth now…</string>
+    <string name="reconnect_msg">Disconnect from the device and reconnect after 10 seconds…</string>
+    <string name="reference_frequency">Reference frequency</string>
+    <string name="reference_voltage">Reference voltage</string>
+    <string name="remaining_time">, remaining time: %ds</string>
+    <string name="remaining_time_unit">Remaining time[s]</string>
+    <string name="reset_password">Reset password</string>
+    <string name="running_up_current">Running-up current</string>
+    <string name="running_up_test">Running-up test</string>
+    <string name="running_up_test_current_status">Running-up test: %1$s, %2$s, remaining time: %3$ds</string>
+    <string name="running_up_test_current_status_result">Running-up test: %1$s, %2$s, running-up time: %3$ds, %4$s</string>
+    <string name="running_up_test_remaining_status">Running-up test: %1$s, %2$s, running-up time: %3$ds</string>
+    <string name="running_up_test_result">The result of running-up test</string>
+    <string name="running_up_test_step_empty">Running-up test: NOT STARTED</string>
+    <string name="running_up_time">Running-up time</string>
+    <string name="running_up_time_unit">Running-up time[s]</string>
+    <string name="running_up_voltage">Running-up voltage</string>
+    <string name="save">Save</string>
+    <string name="save_criteria">Save criteria</string>
+    <string name="save_parameters">Save parameters</string>
+    <string name="save_record_error">"Work order and meter number can't be blank"</string>
+    <string name="save_record_success">Save record successful</string>
+    <string name="save_scheme">Save scheme</string>
+    <string name="save_scheme_success_msg">Save scheme successful</string>
+    <string name="scheme">Scheme</string>
+    <string name="scheme_empty_msg">Please choose a schema first!</string>
+    <string name="scheme_list_title">Auto validation &lt; Scheme list</string>
+    <string name="scheme_name_blank_msg">"The scheme name can't be empty"</string>
+    <string name="scheme_name_label">Please enter or confirm the scheme name:</string>
+    <string name="scheme_name_long_msg">"The scheme name can't exceed 20 characters"</string>
+    <string name="schedule">Schedule</string>
+        <string name="parameters_setup_of_electric_energy_meter">Parameters setup of electric energy meter</string>
+    <string name="search_error">Please turn on the bluetooth</string>
+    <string name="search_placeholder">work order number / username</string>
+    <string name="searching">Searching</string>
+    <string name="select_scheme_blank_msg">Please select one scheme</string>
+    <string name="send_device_id">Send device id</string>
+    <string name="send_end_pack">Send end pack</string>
+    <string name="send_start_pack">Send start pack</string>
+    <string name="send_update_pack">Send update pack</string>
+    <string name="senior_password_of_electric_energy_meter">Senior password of electric energy meter:</string>
+    <string name="setting_value">Setting</string>
+    <string name="sharp">Sharp</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="sign_in">Sign in</string>
+    <string name="single_packet_length">Per packet size</string>
+    <string name="single_phase">Single-phase</string>
+    <string name="sn">S/N</string>
+    <string name="software_version_blank">Software Version: ---</string>
+    
+    <string name="source_not_ready_msg">The source has not ready, please try after stability</string>
+    <string name="source_output">Source output</string>
+    <string name="source_state_failure">Failure</string>
+    <string name="source_state_output">Output</string>
+    <string name="source_state_stability">Stability</string>
+    <string name="source_state_stopped">Stopped</string>
+    <string name="source_stopping">Source stopping</string>
+    <string name="standard_deviation">Standard deviation</string>
+
+    <string name="standard_meter">Standard meter</string>
+    <string name="start_stop_electric_energy">Start-stop electric energy</string>
+    <string name="start_stop_power">Start-stop power</string>
+    <string name="start_test_error">Please calculate the false actuation time first</string>
+    <string name="start_upgrade">Upgrade</string>
+    <string name="starting_electric_energy_accumulation">Starting electric energy accumulation</string>
+    <string name="starting_validation">Starting validation</string>
+    <string name="stop">Stop</string>
+    <string name="stop_accumulate_confirm">Are you want to stop accumulate?</string>
+    <string name="stop_calibration">Stop calibration</string>
+    <string name="stop_electric_energy">Stop electric energy</string>
+    <string name="stop_electric_energy_accumulation">Stop electric energy accumulation</string>
+    <string name="stop_load_confirm">Verifying, are you sure want to stop load?</string>
+    <string name="stop_query_confirm">Querying now, are you sure want to stop source?</string>
+    <string name="stop_source_output_confirm">Verifying, are you sure want to stop source?</string>
+    <string name="stop_test_confirm">Are you sure want to stop test?</string>
+    <string name="stop_the_test">Stop the test</string>
+    <string name="stop_the_validation">Stop the validation</string>
+    <string name="stop_upgrade">Stop</string>
+    <string name="switch_of_bluetooth">Switch of Bluetooth</string>
+    
+    <string name="test_result">Test result</string>
+    <string name="test_result_empty">Test result:</string>
+    <string name="test_result_first_placeholder">meter %1$d：%2$s</string>
+    <string name="test_result_other_placeholder">, meter %1$d：%2$s</string>
+    <string name="test_result_placeholder">Test result of meter %1$d：%2$s</string>
+    <string name="time">Time</string>
+    <string name="time_1">%dst error</string>
+    <string name="time_2">%dnd error</string>
+    <string name="time_3">%drd error</string>
+    <string name="time_other">%dnd error</string>
+    <string name="time_value_limit">Input range: 1~599999</string>
+    <string name="timeout_exception">Disconnect from device, please try again! Timeout, error code: %1$dH%2$s</string>
+    <string name="times_of_measurement">Times of measurement</string>
+    <string name="timing">Timing</string>
+    <string name="toal_packages_label">Toal packages: %s</string>
+    <string name="total">Total</string>
+    <string name="turn_off_flash">Turn off flash</string>
+    <string name="turn_on_flash">Turn on flash</string>
+    <string name="turns_of_meter">Turns of meter %1$d: %2$s</string>
+    <string name="type_ac_meter">AC meter</string>
+    <string name="type_ac_source">AC source</string>
+    <string name="type_clamp_meter">Clamp meter</string>
+    <string name="unpaired">Unpaired</string>
+    
+    <string name="update">Update</string>
+    <string name="update_progress_label">Progress: %d%%</string>
+    <string name="update_scheme">Update scheme</string>
+    <string name="update_scheme_success_msg">Update scheme successful</string>
+    <string name="update_success_msg">Update successful!</string>
+    <string name="upgrade_done">Upgrade done! If the device is closed, please reconnect again.</string>
+    <string name="upgrade_error">Upgrade error, please try again.</string>
+    <string name="upgrade_file">File</string>
+    <string name="user_name">User name</string>
+    <string name="user_number">User number</string>
+    <string name="validation_mode">Validation mode</string>
+    <string name="validation_number_of_turns">Turns</string>
+    <string name="validation_record_name">Validation record name</string>
+    <string name="validation_scheme">Validation mode</string>
+    <string name="validation_times">Times</string>
+    <string name="verification_result">Verification result</string>
+    <string name="verifier">Verifier</string>
+    <string name="verify_environment">Verify environment</string>
+    <string name="verify_time">Verify time</string>
+    <string name="view_criteria">View criteria</string>
+    <string name="view_scheme">View scheme</string>
+    <string name="virtual_load">Virtual load</string>
+    <string name="voltage">Voltage</string>
+    <string name="voltage_current_protect_msg">Abnormal voltage and current circuit protection!</string>
+    <string name="voltage_protect_msg">Abnormal voltage circuit protection!</string>
+    <string name="voltage_range_limit">Input range: 0~120%RG</string>
+    <string name="voltage_source">Voltage source</string>
+    <string name="voltage_source_label">Voltage source:</string>
+    <string name="walk_mode">Walk mode</string>
+    
+    <string name="walk_time">Walk time</string>
+
+    <string name="wiring_error">Wiring error</string>
+    <string name="wiring_error_msg">Wiring error, the source output fault!!!</string>
+    <string name="work_order">Work order</string>
+    <string name="wrong">Error</string>
+   
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    
+
+   
+    <string name="select_i_type">电流采样方式</string>
+   
+    <string name="electric_energy_meter_clock_set">Set the clock</string>
+    <string name="electric_energy_meter_xiebo_buchang">谐波补偿</string>
+    <string name="electric_energy_meter_quxiao_buchang">取消补偿</string>
+    
+    
+  
+    <string name="model_switch">模式切换</string>
+
+   
+    <string name="pulse_count">脉冲计数</string>
+   
+    <string name="bluetooth_state_blank">---</string>
+    <string name="frequency_label">F [Hz]:</string>
+    <string name="one">1</string>
+    <string name="pre_pack_size">128</string>
+    <string name="result_four_title_placeholder">%1$s>%2$s>%3$s>%4$s</string>
+    <string name="result_three_title_placeholder">%1$s>%2$s>%3$s</string>
+    <string name="result_two_title_placeholder">%1$s>%2$s</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="two_title_placeholder">%1$s > %2$s</string>
+    <string name="title_activity_manual_check_none_load">ManualCheckNoneLoadActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_data_check">DataCheckActivity</string>
+    <string name="title_activity_ji_ben_wu_cha_result">JiBenWuChaResultActivity</string>
+    <string name="title_activity_qian_dong_result">QianDongResultActivity</string>
+    <string name="title_activity_zou_zi_result">ZouZiResultActivity</string>
+    <string name="title_activity_shi_zhong_result">ShiZhongResultActivity</string>
+    <string name="title_activity_acnl">ACNLActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_acnl_fanan">ACNL_fananActivity</string>
+    <string name="title_activity_acnlfan_an">ACNLFanAnActivity</string>
+    <string name="title_activity_acnlmain">ACNLMainActivity</string>
+    <string name="title_activity_acnltest">ACNLTestActivity</string>
+
+    <string name="title_activity_acnloption_scheme">ACNLOptionSchemeActivity</string>
+	<!-- 英文版 -->
+	<!-- 主界面 -->
+	<string name="software_version_placeholder">Software Version: %s</string>
+	<string name="bluetooth_is_connected">Connected</string>
+	<string name="bluetooth_is_disconnected">Disconnected</string>
+	<string name="manual_validation_of_virtual_load">Manual validation of virtualload</string>
+	<string name="manual_validation_of_real_load">Manual validation of realload</string>
+    <string name="data_inquiry">Data inquiry</string>
+    <string name="automatic_validation_of_virtual_load">Automatic validation of virtualload</string>
+    <string name="electric_energy_meter_parameter">Parameters</string>
+    <string name="system_setting">System setting</string>
+    <string name="toast_latest_version">This is already the latest version.</string>
+    <string name="toast_time_out">Request timed out, please try again later</string>
+    <string name="toast_version_update">Version update</string>
+    <string name="toast_on_downloading">Downloading updates</string>
+    <string name="toast_download_failed">Failed to download new version, please try again later</string>
+    
+    <!-- 系统设置 -->
+    <string name="search_equipment">Search equipment</string>
+    <string name="stop_searching">Stop</string>
+    <string name="ble_msg_disconnected">Bluetooth is disconnected.</string>
+    <string name="ble_msg_not_support_ble">Doesn\'t support BLE.</string>
+	<string name="ble_disconnected">Bluetooth disconnect</string>
+	<!-- 虚负荷手动 -->
+	<string name="intrinsic_error">Intrinsic error</string>
+	<string name="false_actuation_test">False actuation test</string>
+	<string name="qidong_test">Running-up test</string>
+	<string name="walk_test">Walk test</string>
+	<string name="clock_error_test">Clock error</string>
+	<string name="constant_check">Constant check</string>
+	<string name="telemetry">Telemetry</string>
+	<string name="harmonic_setup">Harmonic setup</string>
+	<string name="harmonic_analysis">Harmonic analysis</string>
+	<string name="waveform_display">Waveform display</string>
+	<string name="toast_stop_power">Please stop the source output first.</string>
+	<string name="toast_stop_test">Please stop the test first.</string>
+	<string name="dialog_warn">Warning</string>
+	<string name="dialog_stop_source">Please stop the source and then exit.</string>
+	<string name="dialog_confirm">Confirm</string>
+	<string name="dialog_cancel">Cancel</string>
+	<string name="dialog_change_voltage">Change voltage</string>
+    <string name="dialog_change_current">Change current</string>
+	<string name="dialog_change_angel">Change angle</string>
+	 <string name="dialog_change_quan">Change the number of turns</string>
+    
+	<!-- 基本误差 -->
+	<string name="voltage_source_stopped">Voltage source: Stopped</string>
+    <string name="voltage_source_output">Voltage source: Output</string>
+    <string name="current_source_stopped">Current source: Stopped</string>
+    <string name="current_source_output">Current source: Output</string>
+    <string name="integer_format">Integer,1~1999999</string>
+	
+	<string name="job_done">Job done</string>
+	<string name="start_testing">Start testing</string>
+	<string name="virtual_mode_open">Virtual load mode is on.</string> 
+	<string name="second_pulse_mode_open">Second pulse mode is on.</string> 
+    
+	<string name="voltage_overload">The voltage range is 44~264V, please re-enter.</string>
+    <string name="current_overload">Current range is 0~100A, please re-enter.</string>
+    <string name="frequency_overload">Frequency range is 40~60</string>
+   
+    <string name="format_error">The format is incorrect, please re-enter.</string>
+    <string name="format_illegal">The parameter is invalid.</string>
+    <string name="count_limit">The maximum is 6.</string>
+    
+    <string name="toast_test_complete"></string>
+    <string name="toast_connect_device">Please connect a Bluetooth device first.</string>
+    <string name="qualified">Qualified</string>
+    <string name="unqualified">Unqualified</string>
+    <!-- 潜起动试验 -->
+    <string name="result_undone">Undone</string>
+    <!-- 走字 -->
+    <string name="preset_electric_energy_0">Preset electric energy</string>
+    <string name="preset_electric_energy">Preset electric energy[kW·h]</string>
+    <string name="standard_electric_energy_0">Standard electric energy</string>
+    <string name="standard_electric_energy">Standard electric energy[kW·h]</string>
+     <string name="current_station">Current epitope</string>
+    <string name="station_1">Epitope 1</string>
+    <string name="station_2">Epitope 2</string>
+    <string name="station_3">Epitope 3</string>
+    <string name="pulse_shu">Pulses</string>
+    <string name="pulse_geshu">Number of pulses</string>
+    <string name="pulse_counts">Pulse counts</string>
+    <string name="setting_failed">Setup failed:</string>
+    <string name="clock_set_success">The clock is set successfully.</string>
+    
+     <!-- 遥测 -->
+    <string name="param">Parameter</string>
+    <string name="error_result">Error[%]</string>
+    <string name="voltage_V">Voltage[V]</string>
+	<string name="current_A">Current[A]</string>
+    <string name="power">Power[kW]</string>
+    <!-- 电表参数设置 -->
+    <string name="title_param_setting">Parameters setup of electric energy meter</string>
+    <string name="active_power">Active power</string>
+    <string name="scan">Scan code</string>
+    <string name="number_format_12">The maximum length is 12.</string>
+    <string name="param_update">Updating meter parameters</string>
+   <!-- 谐波 -->
+    <string name="set_complete">Setup completed</string>
+    <string name="voltage_amplitude">UA[%]</string>
+    <string name="current_amplitude">IA[%]</string>
+    <string name="voltage_term">UT[°]</string>
+    <string name="current_term">IT[°]</string>
+    <string name="clear">Clear</string>
+    <string name="toast_cmd_send">Command sent</string>
+        <string name="voltage_content_rate">Voltage content rate</string>
+    <string name="current_content_rate">Current content rate</string>
+	 <string name="ci_harmonic">Harmonic</string>
+	 <string name="unit">Unit</string>
+	 <string name="voltage_waveform">Voltage waveform</string>
+	 <string name="current_waveform">Current waveform</string>
+	 <string name="no_data">Temporarily no data</string>
+	
+	 <string name="direct_access">Direct access mode</string>
+    <string name="txt_100_current_clamp">100A current clamp mode</string>
+    <string name="txt_5_current_clamp">5A current clamp mode</string>
+    <string name="toast_direct_access">Direct intervention mode is on</string>
+    <string name="toast_100_current_clamp">100A current clamp mode is on</string>
+    <string name="toast_5_current_clamp">5A current clamp mode is on</string>
+	<string name="test_round">Test period:</string>
+    <string name="second">s</string>
+     <string name="qualified_comma">qualified,</string>
+    <string name="unqualified_comma">unqualified,</string>
+    <string name="test_state">Test status</string>
+	<!-- 虚负荷自动 -->
+    <string name="testing">Testing</string>
+    <string name="toast_choose_plan">Please choose a plan</string>
+	<string name="stoppted">Stoppted</string>
+	<string name="waiting">Waiting for test</string>
+    <string name="stopping">Stopping</string>
+	<string name="acnl_scheme_default">No plan</string>
+
+	<string name="state_total">A total of</string>
+	<string name="state_testing">items\ntesting item</string>
+	<string name="state_teststate">,test state：</string>
+	<string name="state_left">\nand</string>
+	<string name="state_undone">remaining unfinished</string>
+	<string name="choose_plan">Choose plan</string>
+	<string name="txt_add_plan">Add plan</string>
+	<string name="txt_edit_plan">Edit plan</string>
+	<string name="txt_delete_plan">Delete plan</string>
+	
+		<string name="toast_plan_null">The scheme name or current option is empty.</string>
+	<string name="toast_frequency_null">Frequency value cannot be empty.</string>
+		<string name="toast_plan_duplicate">Duplicate plan name</string>
+	<string name="power_type">Power type</string>
+	<string name="frequency_unit">Frequency(Hz)</string>
+	<!-- 数据查询 -->
+    <string name="filter">Filter</string>
+    <string name="order_number">Order number</string>
+    <string name="data_time">Time：</string>
+      <string name="test_type">Test type</string>
+	 <string name="test_result_1">Meter 1 test result</string>
+    <string name="test_result_2">Meter 2 test result</string>
+    <string name="test_result_3">Meter 3 test result</string>
+	<string name="standard_deviation_1">Meter 1 standard deviation</string>
+    <string name="standard_deviation_2">Meter 2 standard deviation</string>
+    <string name="standard_deviation_3">Meter 3 standard deviation</string>
+    <string name="power_error_11">Meter 1 power error 1</string>
+    <string name="power_error_12">Meter 1 power error 2</string>
+    <string name="power_error_13">Meter 1 power error 3</string>
+    <string name="power_error_14">Meter 1 power error 4</string>
+    <string name="power_error_15">Meter 1 power error 5</string>
+    <string name="power_error_16">Meter 1 power error 6</string>
+    
+	<string name="power_error_21">Meter 2 power error 1</string>
+    <string name="power_error_22">Meter 2 power error 2</string>
+    <string name="power_error_23">Meter 2 power error 3</string>
+    <string name="power_error_24">Meter 2 power error 4</string>
+    <string name="power_error_25">Meter 2 power error 5</string>
+    <string name="power_error_26">Meter 2 power error 6</string>
+    
+    <string name="power_error_31">Meter 3 power error 1</string>
+    <string name="power_error_32">Meter 3 power error 2</string>
+    <string name="power_error_33">Meter 3 power error 3</string>
+    <string name="power_error_34">Meter 3 power error 4</string>
+    <string name="power_error_35">Meter 3 power error 5</string>
+    <string name="power_error_36">Meter 3 power error 6</string>
+    
+    <string name="clock_error_11">Meter 1 clock error 1[ppm]</string>
+    <string name="clock_error_12">Meter 1 clock error 2[ppm]</string>
+    <string name="clock_error_13">Meter 1 clock error 3[ppm]</string>
+    <string name="clock_error_14">Meter 1 clock error 4[ppm]</string>
+    <string name="clock_error_15">Meter 1 clock error 5[ppm]</string>
+    <string name="clock_error_16">Meter 1 clock error 6[ppm]</string>
+    
+    <string name="clock_error_21">Meter 2 clock error 1[ppm]</string>
+    <string name="clock_error_22">Meter 2 clock error 2[ppm]</string>
+    <string name="clock_error_23">Meter 2 clock error 3[ppm]</string>
+    <string name="clock_error_24">Meter 2 clock error 4[ppm]</string>
+    <string name="clock_error_25">Meter 2 clock error 5[ppm]</string>
+    <string name="clock_error_26">Meter 2 clock error 6[ppm]</string>
+    
+    <string name="clock_error_31">Meter 3 clock error 1[ppm]</string>
+    <string name="clock_error_32">Meter 3 clock error 2[ppm]</string>
+    <string name="clock_error_33">Meter 3 clock error 3[ppm]</string>
+    <string name="clock_error_34">Meter 3 clock error 4[ppm]</string>
+    <string name="clock_error_35">Meter 3 clock error 5[ppm]</string>
+    <string name="clock_error_36">Meter 3 clock error 6[ppm]</string>
+    
+    <string name="pulse_constant_1">Meter 1 pulse constant</string>
+    <string name="pulse_constant_2">Meter 2 pulse constant</string>
+    <string name="pulse_constant_3">Meter 3 pulse constant</string>
+    
+    <string name="start_electric_energy_1">Meter 1 start electric energy</string>
+    <string name="start_electric_energy_2">Meter 2 start electric energy</string>
+    <string name="start_electric_energy_3">Meter 3 start electric energy</string>
+    
+    <string name="stop_electric_energy_1">Meter 1 stop electric energy</string>
+    <string name="stop_electric_energy_2">Meter 2 stop electric energy</string>
+    <string name="stop_electric_energy_3">Meter 3 stop electric energy</string>
+    
+    <string name="actual_electric_energy_1">Meter 1 actual electric energy</string>
+    <string name="actual_electric_energy_2">Meter 2 actual electric energy</string>
+    <string name="actual_electric_energy_3">Meter 3 actual electric energy</string>
+    
+    <string name="operating_error_1">Meter 1 operationg error</string>
+    <string name="operating_error_2">Meter 2 operationg error</string>
+    <string name="operating_error_3">Meter 3 operationg error</string>
+    
+    
+    <string name="toast_work_num">Work order cannot be empty</string>
+    <string name="toast_username">Username cannot be empty</string>
+    <string name="toast_worker">Verifier cannot be empty</string>
+    
+    <string name="save_result">Save the verification result</string>
+	<string name="save_ok">Successfully saved</string>
+    <string name="result_null">The verification result is empty</string>
+	<!-- 其他 -->
+	<string name="device_name">Device name:</string>
+	<string name="device_addr">Device addr:</string>
+	<string name="duration_0">Duration</string>
+	<string name="duration_1">Duration[min]</string>
+	<string name="duration_2">Duration[s]</string>
+	<string name="duration_3">Duration[h]</string>
+	<string name="toast_max_precision">Up to two decimal places</string>
+	<string name="toast_max_precision_1000">Up to the thousandth place</string>
+	<string name="toast_max_precision_10000">Up to ten thousandths</string>
+	<string name="frequency_range_40_60">The frequency range is between 40 and 60</string>
+	
+	<string name="range_40_60">The range is between 40 and 60</string>
+	<string name="range_0_360">The range is between 0 and 360</string>
+    <string name="notification">Notification</string>
+	<string name="current_option">Current option(%)</string>
+    <string name="current_a">Current(A)</string>
+    <string name="voltage_option">Voltage option(%)</string>
+	<string name="voltage_v">Voltage(V)</string>
+	<string name="power_factor">Power factor</string>	
+	<string name="fundamental_current_unit">Fundamental current[A]</string>
+    <string name="fundamental_voltage_unit">Fundamental voltage[V]</string>
+    <string name="current_unit">Fundamental current(A)</string>
+    <string name="voltage_unit">Fundamental voltage(V)</string>
+ <string name="error_limit">Error limit</string>
+</resources>

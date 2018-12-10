@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_MCNL_xiebo_fenxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5.5"
+        android:orientation="horizontal" >
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+             >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_header_common_bg"
+                    android:gravity="center"
+                    android:text="THDU[%]"
+                    android:textColor="@color/text_color_inverse"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@id/thdu"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="fill"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_header_common_bg"
+                    android:gravity="center"
+                    android:text="THDI[%]"
+                    android:textColor="@color/text_color_inverse"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@id/thdi"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="-2.0dip"
+                    android:layout_marginTop="-2.0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/cell_noteditable_bg"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_main"
+                    android:textSize="@dimen/text_size" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tr_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_buchang"
+                    style="@style/MyButtonTheme"
+                    android:layout_width="0px"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:text="@string/electric_energy_meter_xiebo_buchang" />
+
+                <Button
+                    android:id="@+id/btn_quxiao_buchang"
+                    style="@style/MyButtonTheme"
+                    android:layout_width="0px"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:text="@string/electric_energy_meter_quxiao_buchang" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_scheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black" >
+    </com.wisdom.layout.TitleLayout>
+    <ListView
+        android:id="@+id/lv_autocheck_result"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="6"
+        android:background="@color/white"
+        android:listSelector="@drawable/list_item_selected" >
+    </ListView>
+<LinearLayout 
+	    android:layout_weight="0.5"
+	    android:orientation="horizontal"
+	    android:background="@color/white"
+	    android:layout_width="match_parent"
+	    android:layout_height="0px">
+	      <Button 
+	        android:text="@string/dialog_confirm"
+	        android:id="@+id/btn_autocheck_ok_plan"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/MyButtonTheme"/>
+	    <Button 
+	        android:text="@string/txt_add_plan"
+	        android:id="@+id/btn_autocheck_add_plan"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/MyButtonTheme"/>
+	    <Button 
+	        android:text="@string/txt_edit_plan"
+	        android:id="@+id/btn_autocheck_update"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/MyButtonTheme"/>
+	    <Button 
+	        android:text="@string/txt_delete_plan"
+	        android:id="@+id/btn_autocheck_delete"
+	        android:textColor="@color/black"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        style="@style/MyButtonTheme"/>
+	    
+	</LinearLayout>
+</LinearLayout>

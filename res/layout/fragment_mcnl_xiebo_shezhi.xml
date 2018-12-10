@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <com.wisdom.layout.TitleLayout
+        android:id="@+id/title_MCNL_xiebo_shezhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+    <!-- 区域1 -->
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_marginLeft="-2.0dip" android:text="N=22" android:layout_weight="2"/>
+    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:gravity="center" android:background="@drawable/cell_noteditable_bg" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_marginLeft="-2.0dip" android:text="@string/voltage_amplitude" android:layout_weight="2"/>
+    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:gravity="center" android:background="@drawable/cell_noteditable_bg" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_marginLeft="-2.0dip" android:text="@string/voltage_term" android:layout_weight="2"/>
+    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:gravity="center" android:background="@drawable/cell_noteditable_bg" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_marginLeft="-2.0dip" android:text="@string/current_amplitude" android:layout_weight="2"/>
+        <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:gravity="center" android:background="@drawable/cell_noteditable_bg" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_marginLeft="-2.0dip" android:text="@string/current_term" android:layout_weight="2"/>
+        </TableRow>
+     </TableLayout>
+      <ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="9.0"
+		android:id="@+id/rootView"
+		>
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+             
+        <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n0" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H2" android:layout_weight="2.0" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u0" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p0" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i0" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0" />
+<EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p0" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+        </TableRow>
+        <TableRow
+          
+            >
+            <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n1" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H3" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u1" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p1" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i1" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p1" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+        </TableRow>
+        <TableRow
+            
+            >
+            <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n2" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H4" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u2" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p2" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i2" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p2" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+        </TableRow>
+        <TableRow
+           
+            >
+           <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n3" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H5" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u3" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p3" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i3" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+     <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p3" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+        </TableRow>
+        <TableRow
+           
+            >
+            <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n4" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H6" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u4" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p4" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i4" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p4" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+        </TableRow>
+        <TableRow
+         
+            >
+           <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n5" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H7" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u5" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p5" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i5" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p5" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+        </TableRow>
+        <TableRow
+          
+            >
+            <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n6" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H8" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u6" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p6" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i6" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p6" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:id="@id/xb_n7" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H9" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u7" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p7" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i7" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+   <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p7" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H10" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u8" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p8" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i8" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p8" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="H11" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u9" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p9" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i9" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p9" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H12" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u10" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p10" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i10" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p10" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H13" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u11" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p11" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i11" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p11" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H14" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u12" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p12" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i12" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p12" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H15" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u13" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p13" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i13" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p13" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H16" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u14" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p14" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i14" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p14" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H17" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u15" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p15" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i15" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p15" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H18" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u16" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p16" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i16" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p16" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H19" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u17" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p17" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i17" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p17" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H20" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_u18" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p18" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@id/xb_i18" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p18" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H21" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u19" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p19" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i19" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p19" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    <!--
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H22" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u20" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p20" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i20" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p20" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    
+    <TableRow>
+    <TextView android:height="40dip" android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:text="H23" android:gravity="center" android:background="@drawable/cell_header_common_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_weight="2" />
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u21" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_u_p21" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    <EditText android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i21" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2" />
+    <EditText android:height="40dip" android:textSize="@dimen/text_size_num" android:textColor="@color/text_color_main" android:gravity="center" android:id="@+id/xb_i_p21" android:background="@drawable/cell_editable_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:text="0" android:maxLength="2" android:numeric="integer" android:layout_weight="2.0"/>
+    
+    </TableRow>
+    -->
+    </TableLayout>
+          
+    </ScrollView>
+    <!-- 区域2 -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal"
+    >
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/cell_header_common_bg" android:layout_width="0dip" android:layout_height="fill_parent" android:layout_marginLeft="-2.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="-2.0dip" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+ 
+            <Button android:id="@+id/xb_startup" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height" android:text="@string/harmonic_setup" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+ 			<Button android:id="@+id/btn_reset" android:layout_width="fill_parent" android:layout_height="@dimen/btn_height" android:text="@string/clear" android:layout_weight="1.0" style="@style/MyButtonTheme" />          
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <!-- 区域3底部-->
+</LinearLayout>

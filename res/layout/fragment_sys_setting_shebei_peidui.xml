@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+ 	<com.wisdom.layout.TitleLayout
+        android:id="@+id/title_xtsz_shebeipeidui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.wisdom.layout.TitleLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_switch" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/switch_of_bluetooth" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+        <Button android:id="@id/search_device" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/search_equipment" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+        <Button android:id="@id/test" android:visibility="gone" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="压力测试" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+        <Button android:id="@id/disconnect_device" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/disconnect" android:layout_weight="1.0" style="@style/MyButtonTheme" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/bt_device" android:layout_width="fill_parent" android:layout_height="@dimen/main_bt_height">
+        <ImageView android:id="@id/bt_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_bluetooth_connected_black_36dp" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:id="@id/bt_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/bt_image" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:id="@id/bt_device_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/bluetooth_state_blank" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_inverse" android:gravity="center" android:background="#ff74a0da" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:text="@string/bluetooth_equipment_list" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" />
+</LinearLayout>

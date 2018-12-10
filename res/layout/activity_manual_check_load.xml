@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:keepScreenOn="true"
+    android:id="@+id/mcl_layout"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frame_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="13.0">
+        <HorizontalScrollView android:padding="2.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:layout_gravity="center_vertical" android:id="@id/jiben_wucha" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/intrinsic_error" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/qiandong_test" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/false_actuation_test" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/qidong_test" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/qidong_test" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/zouzi_test" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/walk_test" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/shizhong_wucha" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/clock_error" style="@style/MyButtonTheme" />
+                <!-- 
+                <Button android:layout_gravity="center_vertical" android:id="@id/dianbiao_jiaoyan" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/electric_energy_meter_test" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/dubiao_shuju" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/reading_parameters" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/biaozhun_dianneng" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/standard_electric_energy" style="@style/MyButtonTheme" />
+                 -->
+                <Button android:layout_gravity="center_vertical" android:id="@id/xiebo_shezhi" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/harmonic_setup" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/xiebo_fenxi" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/harmonic_analysis" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/boxing_xianshi" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/waveform_display" style="@style/MyButtonTheme" />
+                <Button android:layout_gravity="center_vertical" android:id="@id/event_log" android:visibility="gone" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:text="@string/event_log" style="@style/MyButtonTheme" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" layout="@layout/layout_bottom_status" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/list_item" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:minWidth="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <ImageView android:id="@id/bt_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_bluetooth_connected_black_36dp" android:layout_centerVertical="true" />
+   <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:id="@id/bt_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/bt_image" android:layout_centerVertical="true" />
+   <TextView android:textSize="@dimen/text_size" android:textColor="@color/text_color_main" android:id="@id/bt_device_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/bluetooth_state_blank" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+ >
+    <ImageView
+        android:id="@+id/iv_mission_list"
+        android:layout_width="40dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_mission" />
+
+       <TextView
+            android:id="@+id/mission_mName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文字"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_toRightOf="@id/iv_mission_list"
+             />
+ <TextView
+            android:id="@+id/mission_mNameHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="@string/data_time"
+            android:textColor="#666666"
+            android:layout_below="@id/mission_mName"
+            android:layout_toRightOf="@id/iv_mission_list"
+ />
+        <TextView
+            android:id="@+id/mission_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:text="文字"
+            android:textColor="#666666"
+            android:layout_below="@id/mission_mName"
+            android:layout_toRightOf="@id/mission_mNameHead"
+ />
+
+</RelativeLayout>

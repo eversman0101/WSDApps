@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <Button
+        android:id="@+id/btn_clock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:text="终端时钟" />
+        <Button
+        android:id="@+id/btn_chaobiao1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:text="抄表1数据" />
+        <Button
+        android:id="@+id/btn_taitishuchu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:text="台体源输出" />
+        <Button
+        android:id="@+id/btn_taiticeliang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:text="实时台体测量数据" />
+        <Button
+        android:id="@+id/btn_taititingzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:text="台体源停止" />
+
+</LinearLayout>

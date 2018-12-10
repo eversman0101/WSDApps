@@ -1,0 +1,21 @@
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    
+    <PreferenceCategory 
+        android:background="@color/white"
+        android:title="参数设置">
+        <ListPreference
+            android:key="power_type"
+            android:dialogTitle="电能类型"
+            android:entries="@array/acnl_power_type"
+			android:entryValues="@array/acnl_power_type"
+			android:title="电能类型"/>
+        <Preference
+            android:summary="么么哒"
+            android:title="Rair" />
+        <SwitchPreference android:title="免打扰" />
+    </PreferenceCategory>
+</PreferenceScreen>

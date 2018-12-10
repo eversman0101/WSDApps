@@ -1,0 +1,114 @@
+// Generated code from Butter Knife. Do not modify!
+package com.wisdom.app.activityResult;
+
+import android.view.View;
+import butterknife.ButterKnife.Finder;
+import butterknife.ButterKnife.ViewBinder;
+
+public class ZouZiResultActivity$$ViewBinder<T extends com.wisdom.app.activityResult.ZouZiResultActivity> implements ViewBinder<T> {
+  @Override public void bind(final Finder finder, final T target, Object source) {
+    View view;
+    view = finder.findRequiredView(source, 2131297011, "field 'tv_zouzi3'");
+    target.tv_zouzi3 = finder.castView(view, 2131297011, "field 'tv_zouzi3'");
+    view = finder.findRequiredView(source, 2131296890, "field 'et_jiaoyanyuan'");
+    target.et_jiaoyanyuan = finder.castView(view, 2131296890, "field 'et_jiaoyanyuan'");
+    view = finder.findRequiredView(source, 2131296992, "field 'tv_zouzifangshi'");
+    target.tv_zouzifangshi = finder.castView(view, 2131296992, "field 'tv_zouzifangshi'");
+    view = finder.findRequiredView(source, 2131296996, "field 'tv_left_standard_energy'");
+    target.tv_left_standard_energy = finder.castView(view, 2131296996, "field 'tv_left_standard_energy'");
+    view = finder.findRequiredView(source, 2131297008, "field 'tv_qishi3'");
+    target.tv_qishi3 = finder.castView(view, 2131297008, "field 'tv_qishi3'");
+    view = finder.findRequiredView(source, 2131296994, "field 'tv_yuzhidianneng'");
+    target.tv_yuzhidianneng = finder.castView(view, 2131296994, "field 'tv_yuzhidianneng'");
+    view = finder.findRequiredView(source, 2131297002, "field 'tv_wucha1'");
+    target.tv_wucha1 = finder.castView(view, 2131297002, "field 'tv_wucha1'");
+    view = finder.findRequiredView(source, 2131296991, "field 'tv_id'");
+    target.tv_id = finder.castView(view, 2131296991, "field 'tv_id'");
+    view = finder.findRequiredView(source, 2131297000, "field 'tv_shiji1'");
+    target.tv_shiji1 = finder.castView(view, 2131297000, "field 'tv_shiji1'");
+    view = finder.findRequiredView(source, 2131297003, "field 'tv_qishi2'");
+    target.tv_qishi2 = finder.castView(view, 2131297003, "field 'tv_qishi2'");
+    view = finder.findRequiredView(source, 2131296894, "field 'tv_i'");
+    target.tv_i = finder.castView(view, 2131296894, "field 'tv_i'");
+    view = finder.findRequiredView(source, 2131296993, "field 'tv_show_yuzhidianneng'");
+    target.tv_show_yuzhidianneng = finder.castView(view, 2131296993, "field 'tv_show_yuzhidianneng'");
+    view = finder.findRequiredView(source, 2131296995, "field 'tv_beilv'");
+    target.tv_beilv = finder.castView(view, 2131296995, "field 'tv_beilv'");
+    view = finder.findRequiredView(source, 2131297006, "field 'tv_zouzi2'");
+    target.tv_zouzi2 = finder.castView(view, 2131297006, "field 'tv_zouzi2'");
+    view = finder.findRequiredView(source, 2131296999, "field 'tv_jieshu1'");
+    target.tv_jieshu1 = finder.castView(view, 2131296999, "field 'tv_jieshu1'");
+    view = finder.findRequiredView(source, 2131296897, "field 'tv_gonglvyinshu'");
+    target.tv_gonglvyinshu = finder.castView(view, 2131296897, "field 'tv_gonglvyinshu'");
+    view = finder.findRequiredView(source, 2131296997, "field 'tv_biaozhundianneng'");
+    target.tv_biaozhundianneng = finder.castView(view, 2131296997, "field 'tv_biaozhundianneng'");
+    view = finder.findRequiredView(source, 2131297005, "field 'tv_shiji2'");
+    target.tv_shiji2 = finder.castView(view, 2131297005, "field 'tv_shiji2'");
+    view = finder.findRequiredView(source, 2131297007, "field 'tv_wucha2'");
+    target.tv_wucha2 = finder.castView(view, 2131297007, "field 'tv_wucha2'");
+    view = finder.findRequiredView(source, 2131296880, "field 'title'");
+    target.title = finder.castView(view, 2131296880, "field 'title'");
+    view = finder.findRequiredView(source, 2131296893, "field 'tv_yougong'");
+    target.tv_yougong = finder.castView(view, 2131296893, "field 'tv_yougong'");
+    view = finder.findRequiredView(source, 2131296940, "field 'btn_visible'");
+    target.btn_visible = finder.castView(view, 2131296940, "field 'btn_visible'");
+    view = finder.findRequiredView(source, 2131296941, "field 'btn_save'");
+    target.btn_save = finder.castView(view, 2131296941, "field 'btn_save'");
+    view = finder.findRequiredView(source, 2131296892, "field 'tv_u'");
+    target.tv_u = finder.castView(view, 2131296892, "field 'tv_u'");
+    view = finder.findRequiredView(source, 2131296889, "field 'et_username'");
+    target.et_username = finder.castView(view, 2131296889, "field 'et_username'");
+    view = finder.findRequiredView(source, 2131297012, "field 'tv_wucha3'");
+    target.tv_wucha3 = finder.castView(view, 2131297012, "field 'tv_wucha3'");
+    view = finder.findRequiredView(source, 2131297001, "field 'tv_zouzi1'");
+    target.tv_zouzi1 = finder.castView(view, 2131297001, "field 'tv_zouzi1'");
+    view = finder.findRequiredView(source, 2131296998, "field 'tv_qishi1'");
+    target.tv_qishi1 = finder.castView(view, 2131296998, "field 'tv_qishi1'");
+    view = finder.findRequiredView(source, 2131297009, "field 'tv_jieshu3'");
+    target.tv_jieshu3 = finder.castView(view, 2131297009, "field 'tv_jieshu3'");
+    view = finder.findRequiredView(source, 2131297010, "field 'tv_shiji3'");
+    target.tv_shiji3 = finder.castView(view, 2131297010, "field 'tv_shiji3'");
+    view = finder.findRequiredView(source, 2131296895, "field 'tv_wugong'");
+    target.tv_wugong = finder.castView(view, 2131296895, "field 'tv_wugong'");
+    view = finder.findRequiredView(source, 2131296896, "field 'tv_jiaodu'");
+    target.tv_jiaodu = finder.castView(view, 2131296896, "field 'tv_jiaodu'");
+    view = finder.findRequiredView(source, 2131297004, "field 'tv_jieshu2'");
+    target.tv_jieshu2 = finder.castView(view, 2131297004, "field 'tv_jieshu2'");
+  }
+
+  @Override public void unbind(T target) {
+    target.tv_zouzi3 = null;
+    target.et_jiaoyanyuan = null;
+    target.tv_zouzifangshi = null;
+    target.tv_left_standard_energy = null;
+    target.tv_qishi3 = null;
+    target.tv_yuzhidianneng = null;
+    target.tv_wucha1 = null;
+    target.tv_id = null;
+    target.tv_shiji1 = null;
+    target.tv_qishi2 = null;
+    target.tv_i = null;
+    target.tv_show_yuzhidianneng = null;
+    target.tv_beilv = null;
+    target.tv_zouzi2 = null;
+    target.tv_jieshu1 = null;
+    target.tv_gonglvyinshu = null;
+    target.tv_biaozhundianneng = null;
+    target.tv_shiji2 = null;
+    target.tv_wucha2 = null;
+    target.title = null;
+    target.tv_yougong = null;
+    target.btn_visible = null;
+    target.btn_save = null;
+    target.tv_u = null;
+    target.et_username = null;
+    target.tv_wucha3 = null;
+    target.tv_zouzi1 = null;
+    target.tv_qishi1 = null;
+    target.tv_jieshu3 = null;
+    target.tv_shiji3 = null;
+    target.tv_wugong = null;
+    target.tv_jiaodu = null;
+    target.tv_jieshu2 = null;
+  }
+}
